@@ -1,0 +1,145 @@
+/*  Travel to New Orleans
+    Author: Nikki Collins
+    Date:  2/16/21
+
+    Filename: responsiveStyles.css */
+@media screen and (min-width: 800px) {
+  nav {
+    font-size: 1.3em;
+  }
+  img.logoimg{
+    float:left;
+    display: block;
+    border:none;
+    margin-top:60px;
+    margin-left: 3%;
+    width: 10%;
+    height:auto;
+  }
+  img.logoimg2{
+    float:right;
+    display: block;
+    border:none;
+    margin-top:60px;
+    margin-right:3%;
+    width: 10%;
+    height:auto;
+  }
+  .logo{
+    text-align: center;
+  }
+  img.headerimg{
+    width: 70%;
+    height:200px;
+    float:left;
+  }
+
+  .container {
+    max-width: 800px;
+    font-size: 1.3em;
+  }
+
+  .secContainer {
+    margin: 5px 10px;
+  }
+
+  section h2 {
+    text-align: center;
+  }
+
+  .col1, .col2, .col3, .col4 {
+    max-width: 41%;
+    padding: 0 10px 0 10px;
+    margin: 3% 0 3% 0;
+    text-align: left;
+  }
+
+  /*adjust the column's height*/
+  .col1, .col2 {
+    min-height: 600px;
+  }
+
+  .col3, .col4 {
+    min-height: 880px;
+  }
+
+  .col5 {
+    min-height: 780px;
+  }
+
+  .col6 {
+    min-height: 670px;
+  }
+
+  /*make 2 column float next to eachother*/
+  .col1, .col3 {
+    float: left;
+    margin-left: 5%;
+  }
+
+  .col2, .col4 {
+    float: right;
+    margin-right: 5%
+  }
+
+  div.line1 p {
+    display: none;
+  }
+
+  .col1 p, .col2 p, .col3 p, .col4 p, .col5 p, .col6 p {
+    display: block;
+  }
+
+  .col5, .col6 {
+    margin: 3% 5%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  nav {
+    font-size: 1.3em;
+  }
+
+  .container {
+    max-width: 1600px;
+  }
+  section img{
+    height: 100%;
+    width: 100%;
+  }
+  h2{
+    vertical-align: top;
+  }
+
+  .secContainer {
+    text-align: center;
+  }
+
+  .col1, .col2, .col3, .col4 {
+    max-width: 22%;
+    padding: 0 10px 0 10px;
+    margin: 3% auto 3% auto;
+    float: left;
+    display: block;
+    min-height: 820px;
+  }
+
+  .col1 {
+    margin-left: 2%;
+  }
+
+  .col4 {
+    margin-right: 2%;
+  }
+
+  div.line2 p {
+    display: none;
+  }
+
+  .col5, .col6 {
+    margin: 3% 5%;
+  }
+
+
+}

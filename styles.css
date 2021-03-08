@@ -1,0 +1,143 @@
+/*  Travel to New Orleans
+    Author: Nikki Collins
+    Date:  2/16/21
+
+    Filename: index.html */
+
+/*-----------------------------mobile view-----------------------------*/
+*{
+
+}
+body{
+  background-color: rgb(77, 170, 87);
+  font-family: 'Acme', Arial, sans-serif;
+  box-sizing: border-box;
+
+}
+.container{
+  width:90%;
+  margin:auto;
+  max-width: 400px;
+  background-color: rgb(249, 236, 204);
+  padding-bottom: 2px;
+}
+/*-----------------------------logo and header-----------------------------*/
+.logo{
+  text-align: center;
+}
+img.logoimg{
+  float: left;
+  width: 25%;
+  height: 100px;
+  margin-left: 2%;
+}
+img.logoimg2{
+  display:none;
+}
+img.headerimg{
+  width: 68%;
+  height: 120px;
+  margin: 2%;
+}
+
+/*-----------------------------nav-----------------------------*/
+nav{
+  display:block;
+  float: none;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav a{
+  font-size: 1.2em;
+  color:white;
+
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(88, 125, 113);
+  color: white;
+  padding: 16px 16px 8px 16px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  display: block;
+  text-align: left;
+  font-family: 'Acme', Arial, sans-serif;
+  font-size: 1.2em;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display:block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(250, 236, 101);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(164, 98, 138);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(88, 125, 113); color:black;}
+
+/*-----------------------------sections-----------------------------*/
+.secContainer{
+  margin: 5px 10px;
+
+}
+section h2{
+  text-align: center;
+}
+section img{
+  height: 100%;
+  width: 100%;
+}
+.col1, .col2, .col3, .col4, .col5, .col6{
+  background-color: rgb(181, 221, 164);
+  border:solid;
+  border-color: rgb(117, 70, 104);
+  border-width: medium;
+  max-width: 100%;
+  padding: 0 10px 0 10px;
+  margin: 3% 0 3% 0;
+  min-height: 430px;
+}
+
+
+/*-----------------------------dividing line-----------------------------*/
+
+
+div.line2 p, div.line1 p, div.line3 p{
+  width:100%;
+  margin-top:0%;
+  border-top:5px outset rgb(250, 221, 23);
+  clear:both;
+}
+
+/*-----------------------------bottom sections-----------------------------*/
+
+.col1 p, .col2 p, .col3 p, .col4 p,.col5 p, .col6 p{
+  display: none;
+}
+.col6{
+  margin-bottom: 10px;
+}
